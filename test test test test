@@ -1,0 +1,5 @@
+import hashlib
+
+def insecure_cryptography(password):
+  salt = b'salt'
+  hashed_password = hashlib.md5(salt + password.encode()).hexdigest()
