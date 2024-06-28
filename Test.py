@@ -1,9 +1,6 @@
 user_input = input("Enter Expression:")
 result = eval(user_input) # Unsafe
 
-def hardcoded_credentials():
-  password = "my_secret_password"
-
 def weak_password_policy(user_password):
   if len(user_password) < 8:
     print("Weak password! Must be at least 8 characters.")
