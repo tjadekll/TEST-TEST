@@ -1,0 +1,2 @@
+def unsured_variable():
+  unused_var = 42
